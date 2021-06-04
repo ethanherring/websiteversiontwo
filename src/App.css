@@ -21,8 +21,7 @@
 .links {
   color: #52527a;
   font-size: 2em;
-  padding-right: 20px;
-  display: inline; 
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -32,9 +31,15 @@
   background-color: #FAF9F6; 
 }
 
+@font-face {
+  font-family: leagueSpartan;
+  src: url(./Spartan-Black.ttf);
+}
+
 .main-text {
   color: #666699; 
   font-size: 2em;  
+  font-family: leagueSpartan;
   background-color: transparent;
   position: relative;
   top: 40%;
