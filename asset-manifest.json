@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/websiteversiontwo/static/css/main.185009f1.chunk.css",
-    "main.js": "/websiteversiontwo/static/js/main.b7747d54.chunk.js",
-    "main.js.map": "/websiteversiontwo/static/js/main.b7747d54.chunk.js.map",
-    "runtime-main.js": "/websiteversiontwo/static/js/runtime-main.6bfe04e1.js",
-    "runtime-main.js.map": "/websiteversiontwo/static/js/runtime-main.6bfe04e1.js.map",
-    "static/js/2.8548114a.chunk.js": "/websiteversiontwo/static/js/2.8548114a.chunk.js",
-    "static/js/2.8548114a.chunk.js.map": "/websiteversiontwo/static/js/2.8548114a.chunk.js.map",
-    "static/js/3.22b6cbf6.chunk.js": "/websiteversiontwo/static/js/3.22b6cbf6.chunk.js",
-    "static/js/3.22b6cbf6.chunk.js.map": "/websiteversiontwo/static/js/3.22b6cbf6.chunk.js.map",
-    "index.html": "/websiteversiontwo/index.html",
-    "static/css/main.185009f1.chunk.css.map": "/websiteversiontwo/static/css/main.185009f1.chunk.css.map",
-    "static/js/2.8548114a.chunk.js.LICENSE.txt": "/websiteversiontwo/static/js/2.8548114a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/websiteversiontwo/static/media/Spartan-Black.12306839.ttf"
+    "main.css": "/ethanherring.com/static/css/main.1965a66c.chunk.css",
+    "main.js": "/ethanherring.com/static/js/main.b7747d54.chunk.js",
+    "main.js.map": "/ethanherring.com/static/js/main.b7747d54.chunk.js.map",
+    "runtime-main.js": "/ethanherring.com/static/js/runtime-main.75dce511.js",
+    "runtime-main.js.map": "/ethanherring.com/static/js/runtime-main.75dce511.js.map",
+    "static/js/2.2aee55d4.chunk.js": "/ethanherring.com/static/js/2.2aee55d4.chunk.js",
+    "static/js/2.2aee55d4.chunk.js.map": "/ethanherring.com/static/js/2.2aee55d4.chunk.js.map",
+    "static/js/3.22b6cbf6.chunk.js": "/ethanherring.com/static/js/3.22b6cbf6.chunk.js",
+    "static/js/3.22b6cbf6.chunk.js.map": "/ethanherring.com/static/js/3.22b6cbf6.chunk.js.map",
+    "index.html": "/ethanherring.com/index.html",
+    "static/css/main.1965a66c.chunk.css.map": "/ethanherring.com/static/css/main.1965a66c.chunk.css.map",
+    "static/js/2.2aee55d4.chunk.js.LICENSE.txt": "/ethanherring.com/static/js/2.2aee55d4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ethanherring.com/static/media/Spartan-Black.12306839.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bfe04e1.js",
-    "static/js/2.8548114a.chunk.js",
-    "static/css/main.185009f1.chunk.css",
+    "static/js/runtime-main.75dce511.js",
+    "static/js/2.2aee55d4.chunk.js",
+    "static/css/main.1965a66c.chunk.css",
     "static/js/main.b7747d54.chunk.js"
   ]
 }
