@@ -16,7 +16,7 @@ class Scrolldown extends Component {
       }
 
     scrollSection = () =>{
-        scrollMore(this.getWindowDimensions());
+        //scrollMore(window);
     }
     
     render() {
