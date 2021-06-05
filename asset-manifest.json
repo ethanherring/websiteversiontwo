@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ethanherring/websiteversiontwo/tree/gh-pages/static/css/main.2d4d3398.chunk.css",
-    "main.js": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/main.b7747d54.chunk.js",
-    "main.js.map": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/main.b7747d54.chunk.js.map",
-    "runtime-main.js": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/runtime-main.854587bf.js",
-    "runtime-main.js.map": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/runtime-main.854587bf.js.map",
-    "static/js/2.d809070f.chunk.js": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/2.d809070f.chunk.js",
-    "static/js/2.d809070f.chunk.js.map": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/2.d809070f.chunk.js.map",
-    "static/js/3.22b6cbf6.chunk.js": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/3.22b6cbf6.chunk.js",
-    "static/js/3.22b6cbf6.chunk.js.map": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/3.22b6cbf6.chunk.js.map",
-    "index.html": "/ethanherring/websiteversiontwo/tree/gh-pages/index.html",
-    "static/css/main.2d4d3398.chunk.css.map": "/ethanherring/websiteversiontwo/tree/gh-pages/static/css/main.2d4d3398.chunk.css.map",
-    "static/js/2.d809070f.chunk.js.LICENSE.txt": "/ethanherring/websiteversiontwo/tree/gh-pages/static/js/2.d809070f.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/ethanherring/websiteversiontwo/tree/gh-pages/static/media/Spartan-Black.12306839.ttf"
+    "main.css": "/ethanherring/websiteversiontwo/static/css/main.4cb7e3b1.chunk.css",
+    "main.js": "/ethanherring/websiteversiontwo/static/js/main.b7747d54.chunk.js",
+    "main.js.map": "/ethanherring/websiteversiontwo/static/js/main.b7747d54.chunk.js.map",
+    "runtime-main.js": "/ethanherring/websiteversiontwo/static/js/runtime-main.a9bbd49d.js",
+    "runtime-main.js.map": "/ethanherring/websiteversiontwo/static/js/runtime-main.a9bbd49d.js.map",
+    "static/js/2.d91e5685.chunk.js": "/ethanherring/websiteversiontwo/static/js/2.d91e5685.chunk.js",
+    "static/js/2.d91e5685.chunk.js.map": "/ethanherring/websiteversiontwo/static/js/2.d91e5685.chunk.js.map",
+    "static/js/3.22b6cbf6.chunk.js": "/ethanherring/websiteversiontwo/static/js/3.22b6cbf6.chunk.js",
+    "static/js/3.22b6cbf6.chunk.js.map": "/ethanherring/websiteversiontwo/static/js/3.22b6cbf6.chunk.js.map",
+    "index.html": "/ethanherring/websiteversiontwo/index.html",
+    "static/css/main.4cb7e3b1.chunk.css.map": "/ethanherring/websiteversiontwo/static/css/main.4cb7e3b1.chunk.css.map",
+    "static/js/2.d91e5685.chunk.js.LICENSE.txt": "/ethanherring/websiteversiontwo/static/js/2.d91e5685.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ethanherring/websiteversiontwo/static/media/Spartan-Black.12306839.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.854587bf.js",
-    "static/js/2.d809070f.chunk.js",
-    "static/css/main.2d4d3398.chunk.css",
+    "static/js/runtime-main.a9bbd49d.js",
+    "static/js/2.d91e5685.chunk.js",
+    "static/css/main.4cb7e3b1.chunk.css",
     "static/js/main.b7747d54.chunk.js"
   ]
 }
