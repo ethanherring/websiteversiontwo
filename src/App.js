@@ -1,4 +1,4 @@
-import { React } from 'react';
+import { React, useEffect } from 'react';
 import Navbar from './Components/Navbar';
 import Main from './Sections/Main';
 import About from './Sections/About';
@@ -9,15 +9,18 @@ import ReactGA from 'react-ga';
 //styling
 import './App.css';
 
+
 function App() {
+  //Initalize and report google analytics
+  useEffect(() => {
+    ReactGA.initialize('G-LN1KCMZQFC')
+  
+    //Report page view 
+    ReactGA.pageview('/')
+  }, [])
+
   return (
     <div className="App">
-      {
-      ReactGA.initialize('G-LN1KCMZQFC')
-      }
-      {
-      ReactGA.pageview(window.location.pathname + window.location.search)
-      }
       <Navbar />
       <Scrolldown />
       <Main />
