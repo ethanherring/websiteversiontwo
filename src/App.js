@@ -13,8 +13,10 @@ function App() {
   return (
     <div className="App">
       {
-      ReactGA.initialize('G-LN1KCMZQFC');
-      ReactGA.pageview(window.location.pathname + window.location.search);
+      ReactGA.initialize('G-LN1KCMZQFC')
+      }
+      {
+      ReactGA.pageview(window.location.pathname + window.location.search)
       }
       <Navbar />
       <Scrolldown />
