@@ -1,8 +1,8 @@
 import { Link } from 'react-scroll';
 
-function Links() {
+const NavLinks = () => {
     return(
-    <div className="links">
+        <div className="links">
                             <ul>
                                 <li>
                                     <Link
@@ -43,6 +43,10 @@ function Links() {
                             </ul>
                                 
                             
-    </div>);
+    </div>
+    );
+
 }
-export default Links;
+
+
+export default NavLinks;
