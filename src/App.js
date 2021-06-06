@@ -6,14 +6,15 @@ import Contact from './Sections/Contact';
 import Scrolldown from './Components/Scrolldown.js';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('G-LN1KCMZQFC');
-ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 //styling
 import './App.css';
 
 
 function App() {
+  ReactGA.initialize('G-LN1KCMZQFC');
+  ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
       <Navbar />
