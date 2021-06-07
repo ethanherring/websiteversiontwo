@@ -13,7 +13,7 @@ import './App.css';
 
 
 function App() {
-  ReactGA.initialize('G-Q09J7SHZYX');
+  ReactGA.initialize('UA-190113500-1');
   ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
