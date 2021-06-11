@@ -24,7 +24,7 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            {/*This is where the react-scroll links will go*/}
+                            {/*This is where the react-scroll links go*/}
                             <NavLinks
                                     activeClass="active"
                                     to="main"
@@ -34,6 +34,30 @@ const Navbar = () => {
                                     duration={500}
                                     >
                                         Main
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks
+                                    activeClass="active"
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                    >
+                                        About
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={0}
+                                    duration={500}
+                                    >
+                                        Contact
                             </NavLinks>
                         </NavItem>
                     </NavMenu>

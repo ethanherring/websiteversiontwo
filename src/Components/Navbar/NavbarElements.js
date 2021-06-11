@@ -72,7 +72,7 @@ export const NavItem = styled.li`
 
 export const NavLinks = styled(LinkS)`
     color: black;
-    display: felx;
+    display: flex;
     align-items: center;
     text-decoration: none;
     padding: 0 1rem;
@@ -83,3 +83,5 @@ export const NavLinks = styled(LinkS)`
         border-bottom: 3ppx solid green;
     }
 `;
+
+

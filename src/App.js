@@ -5,6 +5,7 @@ import About from './Sections/About';
 import Contact from './Sections/Contact';
 import Scrolldown from './Components/Scrolldown.js';
 import ReactGA from 'react-ga';
+import Sidebar from './Components/Sidebar/Index.js';
 
 
 
@@ -17,6 +18,7 @@ function App() {
   ReactGA.pageview(window.location.pathname + window.location.search);
   return (
     <div className="App">
+      <Sidebar />
       <Navbar />
       <Scrolldown />
       <Main />
