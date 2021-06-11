@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import NavLinks from './NavLinks'
-import { Sling as Hamburger } from 'hamburger-react';
 import { useState } from 'react';
 
 
@@ -30,12 +29,6 @@ class Navbar extends Component {
         return(
           
             <div className="navbar">
-                <Hamburger easing="ease-in"
-                    onClick={this.setState({check: !this.state.check})}
-                    color="#666699" />
-                     
-                    
-                    
             </div>
         );
     }
