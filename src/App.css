@@ -8,11 +8,56 @@
   text-align: center;
 }
 
+/*main page svg css*/
+.custom-shape-divider-bottom-1624125989 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
 
+.custom-shape-divider-bottom-1624125989 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 327px;
+}
 
+.custom-shape-divider-bottom-1624125989 .shape-fill {
+  fill: #ff4500;
+  /*fill: linear-gradient(to right, rgb(255,69,0), rgb(255,143,0))*/
+  /*fill: rgb(255,69,0);
+  fill: linear-gradient(90deg, rgba(255,69,0,1) 0%, rgba(255,143,0,1) 35%, rgba(255,211,0,1) 100%);*/
+}
+/*end of main page svg css*/
+
+/*about page svg css*/
+.custom-shape-divider-top-1624126292 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1624126292 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 279px;
+}
+
+.custom-shape-divider-top-1624126292 .shape-fill {
+  fill: lightblue;
+}
+/*end of about page svg css*/
 
 .links {
-  color: #52527a;
+  color: #ff4500;
   font-size: 2em;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +67,7 @@
 .main-section {
   height: 100vh;
   background-color: white; 
+  position: relative;
 }
 
 @font-face {
@@ -30,7 +76,7 @@
 }
 
 .main-text {
-  color: #666699; 
+  color: #ff4500; 
   font-size: 2em;  
   font-family: leagueSpartan;
   background-color: transparent;
@@ -41,7 +87,8 @@
 
 .about-section {
   height: 100vh;
-  background-color: mediumpurple;
+  background-color: #FFFF;
+  position: relative;
   
 
 }

@@ -9,7 +9,7 @@ import {Nav,
     NavLinks} from './NavbarElements';
 
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
 
 
     return (
@@ -19,8 +19,8 @@ const Navbar = () => {
                     <NavLogo>
                         EH
                     </NavLogo>
-                    <MobileIcon>
-                        <BiMenuAltRight />
+                    <MobileIcon onClick={toggle}>
+                        <BiMenuAltRight/>
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>

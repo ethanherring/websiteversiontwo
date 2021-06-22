@@ -1,11 +1,11 @@
 import React from 'react';
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarLink, SidebarMenu } from './SidebarElements';
-import { Link as LinkS } from 'react-scroll';
+import { Link as SidebarLinks } from 'react-scroll';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <SidebarWrapper>
@@ -17,6 +17,7 @@ const Sidebar = () => {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggle}
                         >
                             Main
                     </SidebarLink>
@@ -27,6 +28,7 @@ const Sidebar = () => {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggle}
                         >
                             About
                     </SidebarLink>
@@ -37,6 +39,7 @@ const Sidebar = () => {
                         smooth={true}
                         offset={0}
                         duration={500}
+                        onClick={toggle}
                         >
                             Contact
                     </SidebarLink>
